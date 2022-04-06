@@ -1,0 +1,131 @@
+/* My Awesome Styles */
+
+/* Diagnostic Styling 
+  * Change Background Color
+  * Outline Elements
+*/
+
+/* Doodle Stage */
+#stage {
+/*   background: grey; */
+  height: 300px;
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1;
+  position: relative;
+}
+
+/* Google SVG */
+google {
+  padding-top: 4.2em;
+  position: absolute;
+  z-index: 5;
+}
+#G {
+  fill: #2c248c;
+}
+#yo {
+  fill: #ffe300;
+}
+#g {
+  fill: #55cfff;
+}
+#l {
+  fill: #03db03;
+}
+#e {
+  fill: #f20000;
+}
+
+/* Gyarados */
+gyarados {
+  height: 2px;
+  width: 2px;
+  grid-column: 1;
+  grid-row: 1;
+  padding-top: 3em;
+  z-index: 10;
+}
+.watersnake {
+  height: 210px;
+  width: 210px;
+}
+
+/* Pokeball Shaking */
+pokeball {
+  height: 5px;
+  width: 5px;
+  grid-column: 2;
+  grid-row: 1;
+  padding-top: 7em;
+  padding-left: 5.5em;
+  z-index: 6;
+}
+.ball {
+  height: 120px;
+  width: 120px;
+
+  animation: swing 2s 1s infinite;
+}
+
+/* Pikachu Jumping */
+pikachu {
+  height: 5px;
+  width: 5px;
+  grid-column: 2;
+  grid-row: 1;
+  padding-top: 10em;
+  padding-left: 14em;
+  z-index: 0;
+}
+.pika {
+  height: 50px;
+  width: 50px;
+}
+
+/* Slowpoke */
+slowpoke {
+  height: 5px;
+  width: 5px;
+  grid-column: 2;
+  grid-row: 1;
+  padding-top: 11.5em;
+  padding-left: 19em;
+  z-index: 7;
+}
+.poke {
+  height: 70px;
+  width: 70px;
+}
+
+/* Exeggutor */
+exeggutor {
+  height: 5px;
+  width: 5px;
+  grid-column: 2;
+  grid-row: 1;
+  padding-top: 0;
+  padding-left: 15.5em;
+  z-index: 0;
+}
+.egg {
+  height: 313px;
+  width: 313px;
+}
+
+/* Voltorb */
+voltorb{
+  height: 5px;
+  width: 5px;
+  grid-column: 5;
+  grid-row: 1;
+/*   padding-top: 8em; */
+  padding-left: 0em;
+  z-index: 10;
+}
+.orb{
+  height: 85px;
+  width: 85px;
+  opacity: 0;
+}
