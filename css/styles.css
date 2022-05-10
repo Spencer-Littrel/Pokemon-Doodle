@@ -33,6 +33,7 @@ google {
 }
 #l {
   fill: #03db03;
+  visibility: hidden;
 }
 #e {
   fill: #f20000;
